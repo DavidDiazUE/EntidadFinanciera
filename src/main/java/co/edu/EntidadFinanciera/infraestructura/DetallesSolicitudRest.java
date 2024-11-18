@@ -27,7 +27,7 @@ public class DetallesSolicitudRest {
     public List<DetallesSolicitud> ListarDS(){
         return dsservice.listar();
     }
-    
+    //hola
         @PostMapping("/detallessolicitud/add")
     public DetallesSolicitud agregarDS(@RequestBody DetallesSolicitud p) {
         return dsservice.add(p);
